@@ -8,33 +8,106 @@
 </head>
 <body>
   <header class="header">
+    <div class="header-bg">
+      <picture>
+        <source srcset="/images/banner-bg-tablet.jpg" media="(min-width: 641px) and (max-width: 1199px)">
+        <source srcset="/images/banner-bg.jpg" media="(min-width: 1200px)">
+        <img src="/images/banner-mobile.jpg" alt="горы" class="header-img">
+      </picture>
+    </div>
     <div class="content">
-      <div class="logo-nav">
-        <div>
-          <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt=""
-              class="logo"></a>
+      <div class="header-info">
+        <div class="logo-nav">
+          <div class="logotype">
+            <a href="#"><img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt=""
+                class="logo"></a>
+          </div>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="list-item"><a href="#">Главная</a></li>
+              <li class="list-item"><a href="#">Посты</a></li>
+              <li class="list-item"><a href="#">Статьи</a></li>
+              <li class="list-item"><a href="#">Теги</a></li>
+              <li class="list-item"><a href="#">Темы</a></li>
+              <li class="list-item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav class="menu">
-          <ul class="menu-list">
-            <li class="list-item"><a href="#">Главная</a></li>
-            <li class="list-item"><a href="#">Посты</a></li>
-            <li class="list-item"><a href="#">Статьи</a></li>
-            <li class="list-item"><a href="#">Теги</a></li>
-            <li class="list-item"><a href="#">Темы</a></li>
-            <li class="list-item"><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
+        <h1 class="header-title">Блог о творчестве, спорте,
+          и образе жизни</h1>
       </div>
-      <h1 class="header-title">Блог о творчестве, спорте,
-        и образе жизни</h1>
     </div>
   </header>
   
+  <div class="trends-block">
+    <h3><a class="trends-title" href="#">Сейчас в тренде</a></h2>
+    <div class="trends">
+      <article class="trends-card">
+        <div class="card__preview">
+          <img src="/images/trend1.jpg" class="trends__img" alt="Комнатное растение">
+        </div>
+        <div class="trends-card__body">
+            <div class="trends-card__text">
+              <ul class="card-list">
+                <li><a class="card-topic" href="#">Lifestyle</a></li>
+                <li><a class="card-topic" href="#">Interior</a></li>
+              </ul>
+              <h3 class="trends-card__name">Сейчас в тренде: сад
+                на подоконнике</h3>
+            </div>
+        </div>
+      </article>
+      <article class="trends-card">
+        <div class="card__preview">
+          <img src="/images/trend2.jpg" class="trends__img" alt="Сыры">
+        </div>
+        <div class="trends-card__body">
+          <div class="trends-card__text">
+            <ul class="card-list">
+              <li><a class="card-topic" href="#">Food</a></li>
+            </ul>
+            <h3 class="trends-card__name">сыры на красивых
+            картинках из интернета:
+            какие они на вкус?</h3>
+          </div>
+        </div>
+      </article>
+      <article class="trends-card">
+        <div class="card__preview">
+          <img src="/images/trend3.jpg" class="trends__img" alt="Девушка в горах">
+        </div>
+        <div class="trends-card__body">
+          <div class="trends-card__text">
+            <ul class="card-list">
+              <li><a class="card-topic" href="#">Lifestyle</a></li>
+              <li><a class="card-topic" href="#">Travel</a></li>
+            </ul>
+            <h3 class="trends-card__name">Собираемся в первый поход в горы</h3>
+          </div>
+        </div>
+      </article>
+      <article class="trends-card">
+        <div class="card__preview">
+          <img src="/images/trend4.jpg" class="trends__img" alt="Лимоны">
+        </div>
+        <div class="trends-card__body">
+          <div class="trends-card__text">
+            <ul class="card-list">
+              <li><a class="card-topic" href="#">Food</a></li>
+              <li><a class="card-topic" href="#">Health</a></li>
+            </ul>
+            <h3 class="trends-card__name">Сейчас в тренде: сколько витамина в лимонах?</h3>
+          </div>
+        </div>
+      </article>
+    </div>
+    </div>
+  </div>
   <div class="content">
     <div class="content-block">
       <main class="main">
         <article class="card">
-          <img class="card-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg"
+          <img class="card-img" src="images/last-post1.jpg"
             alt="Человек идет по берегу">
           <div class="card-text">
             <header class="card-header">
@@ -311,6 +384,40 @@
     </div>
   </div>
   
+  
+    <div class="content">
+      <div class="order-block">
+        <h3><a class="trends-title" href="#">Наши изделия</a></h2>
+          <div class="order">
+            <article class="order-card">
+              <div class="card__preview">
+                <img src="/images/shop-item-desk1.jpg" class="card__img" alt="">
+              </div>
+              <div class="order-card__text">
+                <h3 class="card__name">Barselona</h3>
+              </div>
+            </article>
+            <article class="order-card">
+              <div class="card__preview">
+                <img src="/images/shop-item-desk2.jpg" class="card__img" alt="">
+              </div>
+              <div class="card__body">
+                <h3 class="card__name">Barselona</h3>
+              </div>
+            </article>
+            <article class="order-card">
+              <div class="card__preview">
+                <img src="/images/shop-item-desk3.jpg" class="card__img" alt="">
+              </div>
+              <div class="card__body">
+                <h3 class="card__name">Barselona</h3>
+              </div>
+            </article>
+          </div>
+      </div>
+    </div>
+  
+
   <footer class="content footer-box">
     <div class="footer">
       <div class="articles-socials">
